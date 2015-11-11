@@ -1,0 +1,5 @@
+C:\multivision\1510-oct05-net2\1510-Zachary\DatabaseApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\multivision\1510-oct05-net2\1510-Zachary\DatabaseApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\DatabaseApp\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\multivision\1510-oct05-net2\1510-Zachary\DatabaseApp\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\DatabaseApp\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

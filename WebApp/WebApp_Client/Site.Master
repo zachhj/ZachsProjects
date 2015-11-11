@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApp_Client.Site"%>
+<%@ Register Src="~/WebUserControl1.ascx" TagPrefix="uc" TagName="login" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+        <div>
+            <header>
+                <h1>October Training .NET</h1>
+                <h2>Welcome to my test site</h2>
+            </header>
+            <asp:Button runat="server" ID="StartPage" Text="Start Page" OnClick="StartPage_Click"/>
+            <asp:Button runat="server" ID="FreeContent" Text="Free Content" OnClick="FreeContent_Click"/>
+            <asp:Button runat="server" ID="Login" Text="Login" OnClick="Login_Click"/>
+            <asp:Button runat="server" ID="Default" Text="People" OnClick="Default_Click"/>
+            <br/>
+            <br/>
+            <br/>
+            <asp:Button runat="server" ID="siteLoginButton" Text="open login menu" OnClick="SiteLoginButton_Click" />
+            <asp:Panel runat="server" ID="LoginPanel" Visible="false">
+                <uc:login runat="server"></uc:login>
+            </asp:Panel>
+            <br />
+            <br />
+            <br />
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <br />
+            <asp:HyperLink runat="server" ID="pageLinkOne" Text="goto Start Page" NavigateUrl="~/StartPage.aspx" ></asp:HyperLink>
+            <br />
+            <asp:HyperLink runat="server" ID="HyperLink1" Text="goto Free Content" NavigateUrl="~/FreeContent.aspx" ></asp:HyperLink>
+            <br />
+            <asp:HyperLink runat="server" ID="HyperLink2" Text="goto Login" NavigateUrl="~/login.aspx" ></asp:HyperLink>
+            <br />
+            <asp:HyperLink runat="server" ID="HyperLink3" Text="goto People" NavigateUrl="~/default.aspx" ></asp:HyperLink>
+        </div>
+    </form>
+</body>
+</html>

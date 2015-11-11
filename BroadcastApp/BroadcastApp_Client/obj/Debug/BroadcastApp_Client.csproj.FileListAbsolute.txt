@@ -1,0 +1,14 @@
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\BroadcastApp_Client.dll.config
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\BroadcastApp_Client.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\BroadcastApp_Client.pdb
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\EntityFramework.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\EntityFramework.SqlServer.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\WebApp_Domain.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\WebApp_Data.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\WebApp_Domain.pdb
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\EntityFramework.xml
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\EntityFramework.SqlServer.xml
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\bin\WebApp_Data.pdb
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\obj\Debug\BroadcastApp_Client.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\obj\Debug\BroadcastApp_Client.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\BroadcastApp\BroadcastApp_Client\obj\Debug\BroadcastApp_Client.pdb

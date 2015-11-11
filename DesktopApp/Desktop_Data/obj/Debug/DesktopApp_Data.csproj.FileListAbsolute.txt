@@ -1,0 +1,4 @@
+C:\multivision\1510-oct05-net2\DesktopApp\Desktop_Data\bin\Debug\Desktop_Data.dll
+C:\multivision\1510-oct05-net2\DesktopApp\Desktop_Data\bin\Debug\Desktop_Data.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\Desktop_Data\obj\Debug\Desktop_Data.dll
+C:\multivision\1510-oct05-net2\DesktopApp\Desktop_Data\obj\Debug\Desktop_Data.pdb

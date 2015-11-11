@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OctoberDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Duration" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Screenings" Relationship="Self.FK_Screening_MovieId" FromRole="Movie" ToRole="Screening" />
+  </EntityType>
+  <EntityType Name="Room">
+    <Key>
+      <PropertyRef Name="RoomId" />
+    </Key>
+    <Property Name="RoomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomNum" Type="Byte" Nullable="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Screenings" Relationship="Self.FK_Screening_RoomId" FromRole="Room" ToRole="Screening" />
+  </EntityType>
+  <EntityType Name="Screening">
+    <Key>
+      <PropertyRef Name="ScreeningId" />
+    </Key>
+    <Property Name="ScreeningId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieId" Type="Int32" />
+    <Property Name="RoomId" Type="Int32" />
+    <Property Name="Occupency" Type="Int32" />
+    <Property Name="StartTime" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndTime" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Movie" Relationship="Self.FK_Screening_MovieId" FromRole="Screening" ToRole="Movie" />
+    <NavigationProperty Name="Room" Relationship="Self.FK_Screening_RoomId" FromRole="Screening" ToRole="Room" />
+  </EntityType>
+  <EntityType Name="Theater">
+    <Key>
+      <PropertyRef Name="TheaterId" />
+    </Key>
+    <Property Name="TheaterId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <Association Name="FK_Screening_MovieId">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="0..1" />
+    <End Role="Screening" Type="Self.Screening" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieId" />
+      </Principal>
+      <Dependent Role="Screening">
+        <PropertyRef Name="MovieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Screening_RoomId">
+    <End Role="Room" Type="Self.Room" Multiplicity="0..1" />
+    <End Role="Screening" Type="Self.Screening" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomId" />
+      </Principal>
+      <Dependent Role="Screening">
+        <PropertyRef Name="RoomId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OctoberDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Movies" EntityType="Self.Movie" />
+    <EntitySet Name="Rooms" EntityType="Self.Room" />
+    <EntitySet Name="Screenings" EntityType="Self.Screening" />
+    <EntitySet Name="Theaters" EntityType="Self.Theater" />
+    <AssociationSet Name="FK_Screening_MovieId" Association="Self.FK_Screening_MovieId">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="Screening" EntitySet="Screenings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Screening_RoomId" Association="Self.FK_Screening_RoomId">
+      <End Role="Room" EntitySet="Rooms" />
+      <End Role="Screening" EntitySet="Screenings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

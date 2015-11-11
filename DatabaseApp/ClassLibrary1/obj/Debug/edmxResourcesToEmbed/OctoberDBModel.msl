@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OctoberDBModelStoreContainer" CdmEntityContainer="OctoberDBEntities">
+    <EntitySetMapping Name="Movies">
+      <EntityTypeMapping TypeName="OctoberDBModel.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rooms">
+      <EntityTypeMapping TypeName="OctoberDBModel.Room">
+        <MappingFragment StoreEntitySet="Room">
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="RoomNum" ColumnName="RoomNum" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Screenings">
+      <EntityTypeMapping TypeName="OctoberDBModel.Screening">
+        <MappingFragment StoreEntitySet="Screening">
+          <ScalarProperty Name="ScreeningId" ColumnName="ScreeningId" />
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="Occupency" ColumnName="Occupency" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Theaters">
+      <EntityTypeMapping TypeName="OctoberDBModel.Theater">
+        <MappingFragment StoreEntitySet="Theater">
+          <ScalarProperty Name="TheaterId" ColumnName="TheaterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+﻿<Window x:Class="WebApp_Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="351.316" Width="527.632">
+    <Grid>
+        <TextBox x:Name="nameText" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="nameLable" Content="Search:" HorizontalAlignment="Left" Height="26" Margin="22,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="nameButton" Content="Search" HorizontalAlignment="Left" Height="23" Margin="122,76,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.529,0.217" Click="nameButton_Click"/>
+        <ListBox x:Name="nameList" HorizontalAlignment="Left" Height="299" Margin="251,10,0,0" VerticalAlignment="Top" Width="256"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\WebApp_Data.dll.config
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\WebApp_Data.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\WebApp_Data.pdb
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\EntityFramework.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\EntityFramework.xml
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\obj\Debug\WebApp_Data.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\obj\Debug\WebApp_Data.dll
+C:\multivision\1510-oct05-net2\1510-Zachary\WebApp\WebApp_Data\obj\Debug\WebApp_Data.pdb

@@ -1,0 +1,6 @@
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\obj\Debug\ConsoleApp_Person.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\bin\Debug\ConsoleApp_Person.exe.config
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\bin\Debug\ConsoleApp_Person.exe
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\bin\Debug\ConsoleApp_Person.pdb
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\obj\Debug\ConsoleApp_Person.exe
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp\ConsoleApp_Person\obj\Debug\ConsoleApp_Person.pdb

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BroadcastApp_Client.PersonEntity" CodeBehind="PersonEntity.svc.cs" %>

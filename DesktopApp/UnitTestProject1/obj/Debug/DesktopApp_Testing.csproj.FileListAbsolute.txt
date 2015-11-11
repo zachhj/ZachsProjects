@@ -1,0 +1,9 @@
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\DesktopLibary.dll
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\Desktop_Data.dll
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\DesktopLibary.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\bin\Debug\Desktop_Data.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\obj\Debug\DesktopApp_Testing.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\multivision\1510-oct05-net2\DesktopApp\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

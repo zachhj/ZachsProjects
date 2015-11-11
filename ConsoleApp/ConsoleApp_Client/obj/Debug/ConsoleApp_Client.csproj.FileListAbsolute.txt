@@ -1,0 +1,10 @@
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Client.exe.config
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\obj\Debug\ConsoleApp_Client.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Client.exe
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Client.pdb
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Data.dll
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Domain.dll
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Data.pdb
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\bin\Debug\ConsoleApp_Domain.pdb
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\obj\Debug\ConsoleApp_Client.exe
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Client\obj\Debug\ConsoleApp_Client.pdb

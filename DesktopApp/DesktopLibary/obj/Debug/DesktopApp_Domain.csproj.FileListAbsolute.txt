@@ -1,0 +1,7 @@
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\bin\Debug\DesktopLibary.dll
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\bin\Debug\DesktopLibary.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\bin\Debug\Desktop_Data.dll
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\bin\Debug\Desktop_Data.pdb
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\obj\Debug\DesktopApp_Domain.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\obj\Debug\DesktopLibary.dll
+C:\multivision\1510-oct05-net2\DesktopApp\DesktopLibary\obj\Debug\DesktopLibary.pdb

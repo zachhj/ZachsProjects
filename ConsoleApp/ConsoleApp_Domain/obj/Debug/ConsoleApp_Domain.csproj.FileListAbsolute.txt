@@ -1,0 +1,5 @@
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Domain\bin\Debug\ConsoleApp_Domain.dll
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Domain\bin\Debug\ConsoleApp_Domain.pdb
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Domain\obj\Debug\ConsoleApp_Domain.csprojResolveAssemblyReference.cache
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Domain\obj\Debug\ConsoleApp_Domain.dll
+C:\multivision\1510-oct05-net2\ConsoleApp\ConsoleApp_Domain\obj\Debug\ConsoleApp_Domain.pdb
